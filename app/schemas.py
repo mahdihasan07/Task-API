@@ -21,7 +21,7 @@ class TaskOut(BaseModel):
     id: int
     title: str
     description: Optional[str]
-    completed: Boolean
+    completed: bool
     created_at: datetime
     class config:
         from_attributes = True
